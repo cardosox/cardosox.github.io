@@ -4,6 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Delete Account - Be the Manager</title>
+    <style>
+        body {
+            background-color: #000000;
+            color: #FFFFFF;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+        }
+        a {
+            color: #1E90FF; /* Light blue for links */
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            margin-top: 20px;
+            font-size: 0.9em;
+            text-align: center;
+        }
+        h1 {
+            color: #FFD700; /* Gold color for main heading */
+        }
+        h2 {
+            color: #FFA500; /* Orange for subheadings */
+        }
+        strong {
+            color: #FFFFFF;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
 <body>
     <h1>How to Delete Your Account in Be the Manager</h1>
@@ -21,5 +58,13 @@
     <p>Some data, such as app usage logs or anonymous performance statistics, may be retained for compliance or analytical purposes, but this data is not tied to your personal information.</p>
     
     <p>If you need further assistance, feel free to contact us at <a href="mailto:gamebtmt@gmail.com">gamebtmt@gmail.com</a>.</p>
+
+    <footer>
+        <p>&copy; <span id="year"></span> <strong>Be the Manager Team</strong></p>
+    </footer>
+    <script>
+        // Automatically update the year
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
 </body>
 </html>
